@@ -1,4 +1,3 @@
-// Function to toggle the visibility of the skills section
 const toggleSkills = () => {
     const skillsSection = document.getElementById('skills');
     if (skillsSection) {
@@ -6,7 +5,6 @@ const toggleSkills = () => {
     }
 };
 
-// Adding event listener to the button
 const button = document.getElementById('toggle-skills');
 if (button) {
     button.addEventListener('click', toggleSkills);
